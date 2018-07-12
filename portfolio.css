@@ -1,0 +1,142 @@
+.container{
+    width: 980px;
+    min-height: 300px;
+    background-color: aqua;
+    padding: 15px;
+}
+
+.header{
+    min-height: 100px;
+    background-color: bisque;
+}
+
+.name{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.portDesc{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 45%;
+    
+}
+
+.top{
+    min-height: 100px;
+    background-color: slateblue;
+}
+
+.portPic{
+    display: inline-block;
+    height: 250px;
+    width: 400px;
+    vertical-align: top;
+    margin: 20px 25px;
+    border: 5px solid lightgray;
+}
+
+.aboutheading{
+    display: inline-block;
+    vertical-align: top;
+    width: 440px;
+    margin: 0 25px;
+}
+
+h2{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color: gray;
+    width: 100%;
+    vertical-align: top;
+    margin: 20px 0 0 0;
+}
+
+p{
+    padding: 5px;
+    vertical-align: top;
+    width: 100%;
+    background-color: lightpink;
+    display: inline-block;
+    margin: 0;
+}
+
+.main{
+    min-height: 100px;
+    background-color: saddlebrown;
+    display: inline-block;
+}
+
+.appPics{
+    width: 104%;
+    height: 150px;
+    margin: 0;
+    
+}
+
+.mainHeadings{
+    display: inline-block;
+    vertical-align: top;
+    width: 274px;
+    margin: 0 25px;
+}
+
+h3{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color: gray;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+}
+
+.techPics{
+    display: inline-block;
+    vertical-align: top;
+    width: 284px;
+    margin: 0;
+    padding-top: 3px;
+    background-color: pink;
+}
+
+div.techPics img{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+h4{
+    background-color: #407d61;
+    color: white; 
+    margin: 0px 60px 30px 60px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+
+
+.footer{
+    min-height: 100px;
+    background-color: red;
+}
+
+.contactMe{
+    min-height: 50px;
+    background-color: chocolate;
+}
