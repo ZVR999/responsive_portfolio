@@ -5,30 +5,37 @@
     font-size: 16px;
 }
 
+body{
+    width: 64rem;
+}
+
 body, header{
     background: linear-gradient(#f1f1f1,white,#f1f1f1);
 }
 
 .header h1{
     display: inline-block;
-    width: 20rem;
+    width: 25%;
     font-size: 3rem;
 }
 
 .header p{
     display: inline-block;
-    width: 25rem;
-    font-weight: bold;
+    width: 40%;
     font-size: 1.5rem;
     text-align: right;
-    position: absolute;
-    right: 1rem;
+    margin-left: 20rem;
     padding-top: 1rem;
 }
 
 .main{
     background: radial-gradient(#8e8288,#6f5964,#1a0a0e);
     padding: 1.5rem;
+}
+
+#topmain{
+    height: 30%;
+    width: 100%;
 }
 
 img{
@@ -51,16 +58,16 @@ h3{
 }
 
 .topheadingWtext{
-    width:  32.5rem;
+    width: 52%;
     height: 18rem;
+    margin-left: 2rem;
     display: inline-block;
     vertical-align: top;
-    position: absolute;
-    right: 1.5rem;
     background: linear-gradient(to right,#ffffff,#dacbd9);
 }
 
 .topheadingWtext p{
+
     font-size: 1.25rem;
     padding: 0.5rem 0.5rem 0.8rem 0.5rem;
 }
@@ -76,7 +83,7 @@ h3{
 
 .headingWtext{
     display: inline-block;
-    width: 19.55rem;
+    width: 32%;
     background: linear-gradient(to right,#ffffff,#dacbd9);
     vertical-align: top;
 }
@@ -114,6 +121,7 @@ button{
     border: 0.05rem solid black;
     padding: 0.1rem;
     margin: 0rem auto 1rem auto;
+    box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem black;
 }
 
 .footer p{
