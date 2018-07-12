@@ -2,5 +2,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px dotted black;
+    font-size: 16px;
+}
+
+.header h1{
+    display: inline-block;
+    width: 25%;
+    font-size: 3rem;
+}
+
+.header p{
+    display: inline-block;
+    width: 40%;
+    font-size: 1.5rem;
+    text-align: right;
+    position: absolute;
+    right: 1rem;
+    padding-top: 1rem;
+}
+
+.main{
+    background: maroon;
+    padding: 1.5rem;
+}
+
+img{
+    width: 45%;
+    border: 0.5rem solid silver;
+}
+
+h2{
+    color: white;
+    background-color: gray;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+h3{
+    color: white;
+    background-color: gray;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.topheadingWtext{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 1.5rem;
+}
+
+.topheadingWtext p{
+    background-color: pink;
+    font-size: 1.25rem;
+    padding: 0.5rem 0.5rem 0.8rem 0.5rem;
+}
+
+.topheadingWtext p a{
+    color: black;
+    font-size: 1.25rem;
 }
 
