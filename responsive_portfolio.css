@@ -17,6 +17,7 @@ body, header{
     display: inline-block;
     width: 25%;
     font-size: 3rem;
+    margin-left: 1rem;
 }
 
 .header p{
@@ -31,11 +32,6 @@ body, header{
 .main{
     background: radial-gradient(#8e8288,#6f5964,#1a0a0e);
     padding: 1.5rem;
-}
-
-#topmain{
-    height: 30%;
-    width: 100%;
 }
 
 img{
@@ -59,7 +55,7 @@ h3{
 
 .topheadingWtext{
     width: 52%;
-    height: 18rem;
+    min-height: 18rem;
     margin-left: 2rem;
     display: inline-block;
     vertical-align: top;
@@ -67,7 +63,6 @@ h3{
 }
 
 .topheadingWtext p{
-
     font-size: 1.25rem;
     padding: 0.5rem 0.5rem 0.8rem 0.5rem;
 }
@@ -138,4 +133,81 @@ button{
 .footer a{
     color: black;
     font-size: 1.25rem;
+}
+
+@media screen and (max-width:1023px){
+    
+    .header h1{
+        font-size: 5rem;
+        width: 35%;
+    }
+
+    .header p{
+        font-size: 2.5rem;
+        width: 57%;
+        margin-left: 3rem;
+    }
+    
+    .topmain img{
+        width: 100%;
+    }
+
+    .topheadingWtext{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .topheadingWtext h2{
+        font-size: 3rem;
+    }
+
+    .topheadingWtext p{
+        font-size: 2rem;
+    }
+
+    .topheadingWtext p a{
+        font-size: 2rem;
+    }
+
+    .headingWtext{
+        width: 100%;
+    }
+
+    .headingWtext h2{
+        font-size: 3rem;
+    }
+
+    .mid{
+        margin: 0;
+    }
+
+    .headingWtext p{
+        font-size:  2rem;
+    }
+
+    h3{
+        font-size: 2.5rem;
+    }
+
+    .imgWrap img{
+        width: 15%;
+    }
+    button{
+        font-size: 3rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem gray;
+    }
+
+    .footer p{
+        font-size: 2.5rem;
+    }
+
+    .footer img{
+        width: 6%;
+    }
+
+    .footer a{
+        font-size: 2.75rem;
+    }
 }
