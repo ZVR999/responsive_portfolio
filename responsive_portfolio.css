@@ -6,7 +6,7 @@
 }
 
 body{
-    width: 64rem;
+    width: 100%;
 }
 
 body, header{
@@ -35,7 +35,7 @@ body, header{
 }
 
 img{
-    width: 27rem;
+    width: 40%;
     border: 0.5rem solid silver;
 }
 
@@ -54,7 +54,7 @@ h3{
 }
 
 .topheadingWtext{
-    width: 52%;
+    width: 60%;
     min-height: 18rem;
     margin-left: 2rem;
     display: inline-block;
